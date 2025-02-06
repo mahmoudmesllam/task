@@ -1,12 +1,17 @@
 
 import React from "react";
-import HeroSection from "./Header/HeroSection";
-
+import Shope from "./Day8/Shope";
+import Home from "./Day8/Home";
+import Type from "./Day8/Type";
+import Product from "./Day8/Product";
 function App(){
     return (
         <>
         
-        <HeroSection />
+        < Shope />
+        <Home />
+        <Type />
+        <Product />
         </>
     );
 }
